@@ -1,7 +1,7 @@
 # Fibonacci series of N terms  
 def fib(n):
     if n<1:
-        return n
+        pass
     else:
         i=0
         a,b=0,1

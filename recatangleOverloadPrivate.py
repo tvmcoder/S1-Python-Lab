@@ -1,5 +1,6 @@
 class Rectangle:
     def __init__(self, length, breadth):
+        #here the "__" are the private atributes it cannot accesed outside of the class
         self.__length = length
         self.__breadth = breadth
 

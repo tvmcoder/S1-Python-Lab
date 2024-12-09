@@ -17,6 +17,12 @@ class python(book):
         print(f"Author: {self.author}") 
         print(f"Price: {self.price}") 
         print(f"Number of Pages: {self.pages}")
+pub=input("enter the publisher: ")
+tit=input("enter the Title: ")
+auth=input("enter the author: ")
+price=input("enter the price: ")
+pages=input("enter the pages: ")
 
-python_book = python("O'Reilly Media", "Learning Python", "Mark Lutz", 45.99, 1594) 
+python_book = python(pub,tit,auth,price,pages) 
+
 python_book.display()

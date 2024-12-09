@@ -10,8 +10,13 @@ class time:
         return time(totalhour, totalminute % 60,totalsecond %60)
     def display(self):
         print(f"sum of time is {self.__hour:02}:{self.__minute:02}:{self.__second:02}")
-        
-time1=time(10,32,45)
-time2=time(14,46,24)
+x1=int(input("enter the hour: "))        
+y1=int(input("enter the minute: "))        
+z1=int(input("enter the second: "))        
+x2=int(input("enter the hour: "))        
+y2=int(input("enter the minute: "))        
+z2=int(input("enter the second: "))        
+time1=time(x1,y1,z1)
+time2=time(x2,y2,z2)
 sum=time1+time2
 sum.display()
